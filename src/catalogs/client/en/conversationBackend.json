@@ -2,6 +2,5 @@
   "client.conversationBackend.label": "Chat mode",
   "client.conversationBackend.gui": "Remote AI GUI",
   "client.conversationBackend.official": "Official Codex",
-  "client.conversationBackend.switchHint": "The app reopens automatically after switching. Each mode keeps its own chat history.",
-  "client.conversationBackend.guiBusy": "A GUI task is still running. Wait for it to finish before switching."
+  "client.conversationBackend.switchHint": "Chats reconnect automatically after switching. Each mode keeps its own chat history."
 }

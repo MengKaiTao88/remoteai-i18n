@@ -64,7 +64,6 @@ export interface MessageParams9 {
   "client.conversation.worktree": Record<string, never>;
   "client.conversation.youCanUpdateWhenTheCurrentTaskFinishes": Record<string, never>;
   "client.conversationBackend.gui": Record<string, never>;
-  "client.conversationBackend.guiBusy": Record<string, never>;
   "client.conversationBackend.label": Record<string, never>;
   "client.conversationBackend.official": Record<string, never>;
   "client.conversationBackend.switchHint": Record<string, never>;
@@ -200,4 +199,5 @@ export interface MessageParams9 {
   "client.desktopMacPermissions.screenRecording": Record<string, never>;
   "client.desktopMisc.addACodexHomeInSettingsFirst": Record<string, never>;
   "client.desktopMisc.builtInCodexGui": Record<string, never>;
+  "client.desktopMisc.chooseAnAccountFileSmallerThan20Mb": Record<string, never>;
 }
