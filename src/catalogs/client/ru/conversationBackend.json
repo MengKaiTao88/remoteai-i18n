@@ -1,0 +1,7 @@
+{
+  "client.conversationBackend.label": "Режим чата",
+  "client.conversationBackend.gui": "Remote AI GUI",
+  "client.conversationBackend.official": "Официальный Codex",
+  "client.conversationBackend.switchHint": "После переключения приложение откроется автоматически. История чатов хранится отдельно для каждого режима.",
+  "client.conversationBackend.guiBusy": "В GUI ещё выполняется задача. Дождитесь её завершения перед переключением."
+}

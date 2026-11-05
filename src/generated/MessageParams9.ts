@@ -63,6 +63,11 @@ export interface MessageParams9 {
   "client.conversation.webPage": Record<string, never>;
   "client.conversation.worktree": Record<string, never>;
   "client.conversation.youCanUpdateWhenTheCurrentTaskFinishes": Record<string, never>;
+  "client.conversationBackend.gui": Record<string, never>;
+  "client.conversationBackend.guiBusy": Record<string, never>;
+  "client.conversationBackend.label": Record<string, never>;
+  "client.conversationBackend.official": Record<string, never>;
+  "client.conversationBackend.switchHint": Record<string, never>;
   "client.conversationWorkspace.currentWorktree": Record<string, never>;
   "client.conversationWorkspace.linkedWorktree": { "name": string | number };
   "client.conversationWorkspace.loading": Record<string, never>;
@@ -195,9 +200,4 @@ export interface MessageParams9 {
   "client.desktopMacPermissions.screenRecording": Record<string, never>;
   "client.desktopMisc.addACodexHomeInSettingsFirst": Record<string, never>;
   "client.desktopMisc.builtInCodexGui": Record<string, never>;
-  "client.desktopMisc.chooseAnAccountFileSmallerThan20Mb": Record<string, never>;
-  "client.desktopMisc.chooseTheCodexHomeToManage": Record<string, never>;
-  "client.desktopMisc.column": { "value1": string | number };
-  "client.desktopMisc.couldNotLoadTheFolderListPleaseTryAgain": Record<string, never>;
-  "client.desktopMisc.defaultFolder": { "value1": string | number };
 }

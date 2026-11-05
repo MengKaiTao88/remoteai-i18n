@@ -1,0 +1,7 @@
+{
+  "client.conversationBackend.label": "チャットモード",
+  "client.conversationBackend.gui": "Remote AI GUI",
+  "client.conversationBackend.official": "公式 Codex",
+  "client.conversationBackend.switchHint": "切り替えるとアプリが自動で開き直ります。チャット履歴はモードごとに保持されます。",
+  "client.conversationBackend.guiBusy": "GUI でタスクが実行中です。完了してから切り替えてください。"
+}

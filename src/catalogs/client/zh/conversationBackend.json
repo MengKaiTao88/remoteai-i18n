@@ -1,0 +1,7 @@
+{
+  "client.conversationBackend.label": "聊天模式",
+  "client.conversationBackend.gui": "Remote AI GUI",
+  "client.conversationBackend.official": "官方 Codex",
+  "client.conversationBackend.switchHint": "切换后会自动重新打开，分别保留两种模式的聊天记录。",
+  "client.conversationBackend.guiBusy": "GUI 中还有任务正在运行，请等任务结束后再切换。"
+}
