@@ -29,6 +29,9 @@ export interface MessageParams3 {
   "client.chat.accountUsageRanking": Record<string, never>;
   "client.chat.actions": { "value1": string | number };
   "client.chat.activity": Record<string, never>;
+  "client.chat.activityGroupCommands": { "value1": string | number };
+  "client.chat.activityGroupFiles": { "value1": string | number };
+  "client.chat.activityGroupOperations": { "value1": string | number };
   "client.chat.addContent": Record<string, never>;
   "client.chat.addingAttachments": Record<string, never>;
   "client.chat.addMoreImages": Record<string, never>;
@@ -197,7 +200,4 @@ export interface MessageParams3 {
   "client.chat.enterToSendShiftEnterForANewLine": Record<string, never>;
   "client.chat.enterYourAnswer": Record<string, never>;
   "client.chat.errorDetails": Record<string, never>;
-  "client.chat.estimated": Record<string, never>;
-  "client.chat.estimatedCost": Record<string, never>;
-  "client.chat.every6Hours": Record<string, never>;
 }

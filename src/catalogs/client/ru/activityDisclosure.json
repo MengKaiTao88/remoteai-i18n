@@ -1,0 +1,8 @@
+{
+  "client.chat.activityGroupCommands": "Команды ({value1})",
+  "client.chat.activityGroupFiles": "Изменённые файлы ({value1})",
+  "client.chat.activityGroupOperations": "Операции ({value1})",
+  "client.messageQueue.mode": "Сообщения во время работы",
+  "client.messageQueue.queueMode": "В очередь",
+  "client.messageQueue.steerMode": "Дополнить сейчас"
+}

@@ -1,0 +1,8 @@
+{
+  "client.chat.activityGroupCommands": "コマンド実行（{value1}）",
+  "client.chat.activityGroupFiles": "ファイル変更（{value1}）",
+  "client.chat.activityGroupOperations": "操作（{value1}）",
+  "client.messageQueue.mode": "実行中の送信方法",
+  "client.messageQueue.queueMode": "キューに追加",
+  "client.messageQueue.steerMode": "今すぐ補足"
+}

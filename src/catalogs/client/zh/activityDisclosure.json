@@ -1,0 +1,8 @@
+{
+  "client.chat.activityGroupCommands": "运行命令（{value1}）",
+  "client.chat.activityGroupFiles": "修改文件（{value1}）",
+  "client.chat.activityGroupOperations": "执行操作（{value1}）",
+  "client.messageQueue.mode": "处理中发送方式",
+  "client.messageQueue.queueMode": "排队发送",
+  "client.messageQueue.steerMode": "即时补充"
+}

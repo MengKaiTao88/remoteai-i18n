@@ -1,4 +1,5 @@
 import loungeAttachments from '../src/catalogs/client/zh/loungeAttachments.json';
+import activityDisclosure from '../src/catalogs/client/zh/activityDisclosure.json';
 import remoteCommand from '../src/catalogs/client/zh/remoteCommand.json';
 import toolResults from '../src/catalogs/client/zh/toolResults.json';
 import { createHash } from 'node:crypto';
@@ -54,7 +55,7 @@ const baselines = {
 };
 
 // New complete templates added after migration are covered by the catalog completeness checks.
-const additions = new Set(['client.chat.usePlugin',
+const additions = new Set(['client.chat.usePlugin', ...Object.keys(activityDisclosure),
   ...Object.keys(conversationBackend),
   ...Object.keys(remoteCommand),
   ...Object.keys(toolResults),

@@ -1,0 +1,8 @@
+{
+  "client.chat.activityGroupCommands": "Commands ({value1})",
+  "client.chat.activityGroupFiles": "Files changed ({value1})",
+  "client.chat.activityGroupOperations": "Operations ({value1})",
+  "client.messageQueue.mode": "Follow-up behavior",
+  "client.messageQueue.queueMode": "Queue",
+  "client.messageQueue.steerMode": "Steer"
+}
