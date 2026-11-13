@@ -1,0 +1,10 @@
+{
+  "client.resetPriority.enabled": "Prioritize earlier secondary resets",
+  "client.resetPriority.description": "Earlier secondary quota resets take priority. Unknown or elapsed reset times come last. Turn this off to restore manual priorities.",
+  "client.resetPriority.column": "Auto-switch priority (automatic)",
+  "client.resetPriority.title": "Automatic account priority",
+  "client.resetPriority.computer": "Computer",
+  "client.resetPriority.startProxy": "Start hot switching on this computer before configuring automatic switching.",
+  "client.resetPriority.autoSwitch": "Switch accounts when quota runs out",
+  "client.resetPriority.invalidSetting": "Invalid setting. Refresh and try again."
+}

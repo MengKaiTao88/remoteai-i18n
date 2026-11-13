@@ -1,0 +1,10 @@
+{
+  "client.resetPriority.enabled": "Приоритет по сбросу второго лимита",
+  "client.resetPriority.description": "Раньше сброс второго лимита — выше приоритет. Неизвестное или прошедшее время — в конце. Выключите, чтобы вернуть ручные приоритеты.",
+  "client.resetPriority.column": "Приоритет переключения (авто)",
+  "client.resetPriority.title": "Приоритет автопереключения",
+  "client.resetPriority.computer": "Компьютер",
+  "client.resetPriority.startProxy": "Сначала включите горячее переключение на этом компьютере.",
+  "client.resetPriority.autoSwitch": "Менять аккаунт при исчерпании лимита",
+  "client.resetPriority.invalidSetting": "Неверная настройка. Обновите страницу и повторите попытку."
+}

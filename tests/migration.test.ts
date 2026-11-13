@@ -49,6 +49,7 @@ import loungeMenus from '../src/catalogs/client/zh/loungeMenus.json';
 import loungeAssistance from '../src/catalogs/client/zh/loungeAssistance.json';
 import loungeNotifications from '../src/catalogs/client/zh/loungeNotifications.json';
 import conversationBackend from '../src/catalogs/client/zh/conversationBackend.json';
+import resetPriority from '../src/catalogs/client/zh/resetPriority.json';
 
 const baselines = {
   "client": "751b7f50aca5a2ebf8976190600fd93ce74f94673b73390a87c6fc153bdc6e22",
@@ -57,6 +58,7 @@ const baselines = {
 // New complete templates added after migration are covered by the catalog completeness checks.
 const additions = new Set(['client.chat.usePlugin', ...Object.keys(activityDisclosure),
   ...Object.keys(conversationBackend),
+  ...Object.keys(resetPriority),
   ...Object.keys(remoteCommand),
   ...Object.keys(toolResults),
   ...Object.keys(gitConflicts),

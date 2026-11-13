@@ -248,5 +248,8 @@
   "usage.secondaryMarker": "次",
   "usage.unit": "用量",
   "usage.refreshAge": "{seconds}秒前",
-  "usage.recentRefreshCompact": "{seconds} 秒前更新"
+  "usage.recentRefreshCompact": "{seconds} 秒前更新",
+  "table.resetPriorityEnabled": "按次用量重置时间排序",
+  "table.resetPriorityTooltip": "次用量越早重置，优先级越高。时间未知或已过期的排在最后。关闭后恢复手动优先级。",
+  "table.resetPriorityColumn": "自动切换优先级（自动）"
 }

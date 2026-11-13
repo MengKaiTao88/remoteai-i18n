@@ -248,5 +248,8 @@
   "usage.secondaryMarker": "Secondary",
   "usage.unit": "usage",
   "usage.refreshAge": "{seconds}s ago",
-  "usage.recentRefreshCompact": "Updated {seconds}s ago"
+  "usage.recentRefreshCompact": "Updated {seconds}s ago",
+  "table.resetPriorityEnabled": "Prioritize earlier secondary resets",
+  "table.resetPriorityTooltip": "Earlier secondary quota resets take priority. Unknown or elapsed reset times come last. Turn this off to restore manual priorities.",
+  "table.resetPriorityColumn": "Auto-switch priority (automatic)"
 }

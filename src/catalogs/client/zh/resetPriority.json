@@ -1,0 +1,10 @@
+{
+  "client.resetPriority.enabled": "按次用量重置时间排序",
+  "client.resetPriority.description": "次用量越早重置，优先级越高。时间未知或已过期的排在最后。关闭后恢复手动优先级。",
+  "client.resetPriority.column": "自动切换优先级（自动）",
+  "client.resetPriority.title": "自动切号优先级",
+  "client.resetPriority.computer": "选择电脑",
+  "client.resetPriority.startProxy": "先在这台电脑开启热切换，再设置自动切号。",
+  "client.resetPriority.autoSwitch": "额度用完后自动切号",
+  "client.resetPriority.invalidSetting": "设置无效，请刷新后重试。"
+}

@@ -248,5 +248,8 @@
   "usage.secondaryMarker": "Второй",
   "usage.unit": "лимит",
   "usage.refreshAge": "{seconds} с назад",
-  "usage.recentRefreshCompact": "Обновлено {seconds} с назад"
+  "usage.recentRefreshCompact": "Обновлено {seconds} с назад",
+  "table.resetPriorityEnabled": "Приоритет по сбросу второго лимита",
+  "table.resetPriorityTooltip": "Раньше сброс второго лимита — выше приоритет. Неизвестное или прошедшее время — в конце. Выключите, чтобы вернуть ручные приоритеты.",
+  "table.resetPriorityColumn": "Приоритет переключения (авто)"
 }

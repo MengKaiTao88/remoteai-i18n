@@ -57,6 +57,14 @@ export interface MessageParams24 {
   "client.remoteHostMessages.unableToReadTheTerminalReopenIt": Record<string, never>;
   "client.remoteHostMessages.unsupportedRemoteDesktopAction": Record<string, never>;
   "client.remoteHostMessages.updateRemoteAiOnTheRemoteComputerAndTryAgain": Record<string, never>;
+  "client.resetPriority.autoSwitch": Record<string, never>;
+  "client.resetPriority.column": Record<string, never>;
+  "client.resetPriority.computer": Record<string, never>;
+  "client.resetPriority.description": Record<string, never>;
+  "client.resetPriority.enabled": Record<string, never>;
+  "client.resetPriority.invalidSetting": Record<string, never>;
+  "client.resetPriority.startProxy": Record<string, never>;
+  "client.resetPriority.title": Record<string, never>;
   "client.runtimeErrors.active": Record<string, never>;
   "client.runtimeErrors.aDirectConnectionIsUnavailableRightNowTryAgainLater": Record<string, never>;
   "client.runtimeErrors.chatConnection": Record<string, never>;
@@ -192,12 +200,4 @@ export interface MessageParams24 {
   "client.scheduledTasks.turnYourRecentWorkIntoAConciseStatusUpdateEvery": Record<string, never>;
   "client.scheduledTasks.viewTaskConversation": Record<string, never>;
   "client.scheduledTasks.weekdaysAt": { "time": string | number };
-  "client.scheduledTasks.weekly": Record<string, never>;
-  "client.scheduledTasks.weeklyReview": Record<string, never>;
-  "client.scheduledTasks.youCanCreateATaskWithoutAProjectFolder": Record<string, never>;
-  "client.settings.2faKeySaved": Record<string, never>;
-  "client.settings.about": Record<string, never>;
-  "client.settings.aboutRemoteAi": Record<string, never>;
-  "client.settings.accountName": Record<string, never>;
-  "client.settings.add2faKey": Record<string, never>;
 }

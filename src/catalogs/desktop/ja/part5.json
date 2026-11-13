@@ -248,5 +248,8 @@
   "usage.secondaryMarker": "二次",
   "usage.unit": "使用",
   "usage.refreshAge": "{seconds}秒前",
-  "usage.recentRefreshCompact": "{seconds}秒前に更新"
+  "usage.recentRefreshCompact": "{seconds}秒前に更新",
+  "table.resetPriorityEnabled": "副使用量のリセット時刻順に優先",
+  "table.resetPriorityTooltip": "副使用量のリセットが早いアカウントを優先します。不明または過去の時刻は最後になります。オフにすると手動の優先度に戻ります。",
+  "table.resetPriorityColumn": "切替優先度（自動）"
 }

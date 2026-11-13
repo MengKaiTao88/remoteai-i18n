@@ -1,0 +1,10 @@
+{
+  "client.resetPriority.enabled": "副使用量のリセット時刻順に優先",
+  "client.resetPriority.description": "副使用量のリセットが早いアカウントを優先します。不明または過去の時刻は最後になります。オフにすると手動の優先度に戻ります。",
+  "client.resetPriority.column": "切替優先度（自動）",
+  "client.resetPriority.title": "自動切替の優先度",
+  "client.resetPriority.computer": "コンピューター",
+  "client.resetPriority.startProxy": "このコンピューターでホット切替を開始してから自動切替を設定してください。",
+  "client.resetPriority.autoSwitch": "使用量の上限到達時にアカウントを切替",
+  "client.resetPriority.invalidSetting": "設定が無効です。更新して再試行してください。"
+}
