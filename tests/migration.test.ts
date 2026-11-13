@@ -1,8 +1,12 @@
 import loungeAttachments from '../src/catalogs/client/zh/loungeAttachments.json';
+import officialAccounts from '../src/catalogs/client/zh/officialAccounts.json';
+import cliGui from '../src/catalogs/client/zh/cliGui.json';
 import activityDisclosure from '../src/catalogs/client/zh/activityDisclosure.json';
 import remoteCommand from '../src/catalogs/client/zh/remoteCommand.json';
+import computerUseAdmin from '../src/catalogs/client/zh/computerUseAdmin.json';
 import toolResults from '../src/catalogs/client/zh/toolResults.json';
 import { createHash } from 'node:crypto';
+import taskRecovery from '../src/catalogs/client/zh/taskRecovery.json';
 import { expect, it } from 'vitest';
 import { resources as client } from '../src/catalogs/client';
 import { createI18n } from '../src/engine';
@@ -28,6 +32,7 @@ import projectEditorWindow from '../src/catalogs/client/zh/projectEditorWindow.j
 import conversationWorkspace from '../src/catalogs/client/zh/conversationWorkspace.json';
 import accountAlias from '../src/catalogs/client/zh/accountAlias.json';
 import filePreview from '../src/catalogs/client/zh/filePreview.json';
+import pdfReader from '../src/catalogs/client/zh/pdfReader.json';
 import projectActions from '../src/catalogs/client/zh/projectActions.json';
 import groups from '../src/catalogs/client/zh/groups.json';
 import projectExplorer from '../src/catalogs/client/zh/projectExplorer.json';
@@ -48,18 +53,25 @@ import loungeNames from '../src/catalogs/client/zh/loungeNames.json';
 import loungeMenus from '../src/catalogs/client/zh/loungeMenus.json';
 import loungeAssistance from '../src/catalogs/client/zh/loungeAssistance.json';
 import loungeNotifications from '../src/catalogs/client/zh/loungeNotifications.json';
+import conversationSync from '../src/catalogs/client/zh/conversation-sync.json';
 import conversationBackend from '../src/catalogs/client/zh/conversationBackend.json';
 import resetPriority from '../src/catalogs/client/zh/resetPriority.json';
 
 const baselines = {
-  "client": "751b7f50aca5a2ebf8976190600fd93ce74f94673b73390a87c6fc153bdc6e22",
+  "client": "c3d5d7793205e829b0349600145ef12c0c912c853fac054206d0a899b80a714b",
 };
 
 // New complete templates added after migration are covered by the catalog completeness checks.
-const additions = new Set(['client.chat.usePlugin', ...Object.keys(activityDisclosure),
+const additions = new Set(['client.chat.usePlugin',
+  ...Object.keys(activityDisclosure),
+  ...Object.keys(officialAccounts),
+  ...Object.keys(taskRecovery),
+  ...Object.keys(cliGui),
+  ...Object.keys(conversationSync),
   ...Object.keys(conversationBackend),
   ...Object.keys(resetPriority),
   ...Object.keys(remoteCommand),
+  ...Object.keys(computerUseAdmin),
   ...Object.keys(toolResults),
   ...Object.keys(gitConflicts),
   ...Object.keys(gitActivity),
@@ -82,6 +94,7 @@ const additions = new Set(['client.chat.usePlugin', ...Object.keys(activityDiscl
   ...Object.keys(conversationWorkspace),
   ...Object.keys(accountAlias),
   ...Object.keys(filePreview),
+  ...Object.keys(pdfReader),
   ...Object.keys(projectActions),
   ...Object.keys(groups),
   ...Object.keys(projectExplorer),
