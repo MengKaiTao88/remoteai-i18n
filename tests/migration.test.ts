@@ -1,4 +1,5 @@
 import loungeAttachments from '../src/catalogs/client/zh/loungeAttachments.json';
+import personalMobile from '../src/catalogs/client/zh/personalMobile.json';
 import officialAccounts from '../src/catalogs/client/zh/officialAccounts.json';
 import cliGui from '../src/catalogs/client/zh/cliGui.json';
 import activityDisclosure from '../src/catalogs/client/zh/activityDisclosure.json';
@@ -114,6 +115,7 @@ const additions = new Set(['client.chat.usePlugin',
   ...Object.keys(loungeNames),
   ...Object.keys(loungeMenus),
   ...Object.keys(loungeAttachments),
+  ...Object.keys(personalMobile),
   ...Object.keys(loungeAssistance),
   ...Object.keys(loungeNotifications),
   'client.remoteDesktop.takeoverTitle', 'client.remoteDesktop.takeoverMessage',

@@ -1,0 +1,13 @@
+{
+  "client.mobileAccount.updated": "Квота обновлена · {time}",
+  "client.mobileAccount.weekly": "Неделя {quota}",
+  "client.mobileAccount.current": "Используется",
+  "client.mobileAccount.credits": "Карты сброса: {count}",
+  "client.mobileAccount.fiveHourAverage": "Среднее за 5 ч",
+  "client.mobileAccount.weeklyAverage": "Среднее за неделю",
+  "client.mobileChat.sideChats": "Связанные чаты",
+  "client.mobileChat.noSideChats": "Нет связанных чатов",
+  "client.mobileChat.turnAndStepCount": "Ходов: {turns}, шагов: {steps}",
+  "client.mobileChat.loadedTurnAndStepCount": "Загружено ходов: {turns}, шагов: {steps}",
+  "client.mobileChat.refresh": "Обновить чат"
+}

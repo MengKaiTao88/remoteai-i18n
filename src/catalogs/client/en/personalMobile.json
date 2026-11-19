@@ -1,0 +1,13 @@
+{
+  "client.mobileAccount.updated": "Usage updated · {time}",
+  "client.mobileAccount.weekly": "Weekly {quota}",
+  "client.mobileAccount.current": "In use",
+  "client.mobileAccount.credits": "Reset cards: {count}",
+  "client.mobileAccount.fiveHourAverage": "5-hour average",
+  "client.mobileAccount.weeklyAverage": "Weekly average",
+  "client.mobileChat.sideChats": "Side chats",
+  "client.mobileChat.noSideChats": "No side chats",
+  "client.mobileChat.turnAndStepCount": "{turns} turns {steps} steps",
+  "client.mobileChat.loadedTurnAndStepCount": "Loaded {turns} turns {steps} steps",
+  "client.mobileChat.refresh": "Refresh chat"
+}

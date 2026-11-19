@@ -1,0 +1,13 @@
+{
+  "client.mobileAccount.updated": "使用量の更新 · {time}",
+  "client.mobileAccount.weekly": "週間 {quota}",
+  "client.mobileAccount.current": "使用中",
+  "client.mobileAccount.credits": "リセットカード {count} 枚",
+  "client.mobileAccount.fiveHourAverage": "5時間平均",
+  "client.mobileAccount.weeklyAverage": "週間平均",
+  "client.mobileChat.sideChats": "サイドチャット",
+  "client.mobileChat.noSideChats": "サイドチャットはありません",
+  "client.mobileChat.turnAndStepCount": "{turns} ターン {steps} ステップ",
+  "client.mobileChat.loadedTurnAndStepCount": "読み込み済み {turns} ターン {steps} ステップ",
+  "client.mobileChat.refresh": "チャットを更新"
+}

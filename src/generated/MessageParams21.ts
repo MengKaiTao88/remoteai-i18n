@@ -113,6 +113,17 @@ export interface MessageParams21 {
   "client.mobile.youCanLeaveThisPageAndCheckDownloadProgressIn": Record<string, never>;
   "client.mobile.yourPhoneSendsAShortWeatherQuestionThroughTheSelected": Record<string, never>;
   "client.mobile.yourSignInTokenIsKeptOnlyInThisDevice": Record<string, never>;
+  "client.mobileAccount.credits": { "count": string | number };
+  "client.mobileAccount.current": Record<string, never>;
+  "client.mobileAccount.fiveHourAverage": Record<string, never>;
+  "client.mobileAccount.updated": { "time": string | number };
+  "client.mobileAccount.weekly": { "quota": string | number };
+  "client.mobileAccount.weeklyAverage": Record<string, never>;
+  "client.mobileChat.loadedTurnAndStepCount": { "steps": string | number; "turns": string | number };
+  "client.mobileChat.noSideChats": Record<string, never>;
+  "client.mobileChat.refresh": Record<string, never>;
+  "client.mobileChat.sideChats": Record<string, never>;
+  "client.mobileChat.turnAndStepCount": { "steps": string | number; "turns": string | number };
   "client.nativeChat.removeAttachment": { "value1": string | number };
   "client.nativeChat.removeConversationReference": { "value1": string | number };
   "client.nativeMisc.createdBy": { "email": string | number };
@@ -189,15 +200,4 @@ export interface MessageParams21 {
   "client.portForwarding.couldNotStartMappingCheckTheRemoteServiceAndTry": Record<string, never>;
   "client.portForwarding.couldNotStartUdpMappingCheckThatBothAppsAre": Record<string, never>;
   "client.portForwarding.disconnectedReconnectToStartMappingAgain": Record<string, never>;
-  "client.portForwarding.enterAPortNumberBetween1And65535": Record<string, never>;
-  "client.portForwarding.enterAValidIpv4OrIpv6Address": Record<string, never>;
-  "client.portForwarding.loadingWebsite": Record<string, never>;
-  "client.portForwarding.localAddressCopied": Record<string, never>;
-  "client.portForwarding.localPort": Record<string, never>;
-  "client.portForwarding.mappingWasInterruptedPleaseStartItAgain": Record<string, never>;
-  "client.portForwarding.mapRemotePortsToThisComputerForLocalAccess": Record<string, never>;
-  "client.portForwarding.noPortMappingsYet": Record<string, never>;
-  "client.portForwarding.onceTheMappingStartsTapItsAddressToPreviewIn": Record<string, never>;
-  "client.portForwarding.open": Record<string, never>;
-  "client.portForwarding.openMappedAddress": Record<string, never>;
 }

@@ -1,0 +1,13 @@
+{
+  "client.mobileAccount.updated": "用量更新 · {time}",
+  "client.mobileAccount.weekly": "周额度 {quota}",
+  "client.mobileAccount.current": "当前使用",
+  "client.mobileAccount.credits": "重置卡 {count} 张",
+  "client.mobileAccount.fiveHourAverage": "5 小时平均",
+  "client.mobileAccount.weeklyAverage": "周额度平均",
+  "client.mobileChat.sideChats": "侧边聊天",
+  "client.mobileChat.noSideChats": "暂无侧边聊天",
+  "client.mobileChat.turnAndStepCount": "{turns} 轮 {steps} 步",
+  "client.mobileChat.loadedTurnAndStepCount": "已加载 {turns} 轮 {steps} 步",
+  "client.mobileChat.refresh": "刷新对话"
+}
